@@ -10025,4 +10025,10 @@ fieldset:disabled .btn {
   .centered {
     text-align: center;
   }
+  .icon-container {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
 }
