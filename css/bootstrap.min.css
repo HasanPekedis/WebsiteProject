@@ -10045,4 +10045,7 @@ fieldset:disabled .btn {
     width: 60px;
     height: 60px;
 }
+  .doc-image-container {
+    display: flex;
+  }
 }
