@@ -6769,6 +6769,9 @@ fieldset:disabled .btn {
 .text-decoration-underline {
   text-decoration: underline !important;
 }
+.text-decoration-no-underline {
+  text-decoration: none;
+}
 .text-decoration-line-through {
   text-decoration: line-through !important;
 }
@@ -6793,6 +6796,9 @@ fieldset:disabled .btn {
 }
 .text-primary {
   color: #06a3da !important;
+}
+.text-codex {
+  color: #061429 !important;
 }
 .text-secondary {
   color: #34ad54 !important;
