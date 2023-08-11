@@ -509,6 +509,11 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-fluid-refrence {
+  max-width: 85%;
+  height: 175px;
+
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -6103,6 +6108,10 @@ fieldset:disabled .btn {
 .w-100 {
   width: 100% !important;
 }
+.refrencePos {
+  width: 80% !important;
+  height: 80% !important;
+}
 .w-auto {
   width: auto !important;
 }
@@ -6862,6 +6871,9 @@ fieldset:disabled .btn {
 }
 .bg-dark {
   background-color: #091e3e !important;
+}
+.bg-refrence {
+  background-color: #2B3990 !important;
 }
 .bg-body {
   background-color: #fff !important;
@@ -10047,5 +10059,22 @@ fieldset:disabled .btn {
 }
   .doc-image-container {
     display: flex;
+  }
+  .refrenceContainer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+
+  .refrenceImageBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .refrenceImageBrand {
+    position: absolute;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
   }
 }
